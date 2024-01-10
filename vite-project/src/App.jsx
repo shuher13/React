@@ -14,6 +14,7 @@ function App() {
       <Button />
       <Button />
       <Button />
+      <Button />
       <h1>КиберСпортивные КоМаНдЫ</h1>
       <Profile img={teamVitalityImg} name="Vitality"/>
       <Profile img={G2Img} name="G2"/>

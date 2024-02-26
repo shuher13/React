@@ -1,26 +1,18 @@
 import "./App.css";
-import Button from "./ui/Button";
-import Profile from "./components/Profile";
-import teamVitalityImg from "./img/team_vitality.png";
-import fazeImg from "./img/FaZe.png";
-import G2Img from "./img/G2.png";
+import UseState from "./components/hooks/UseState";
+import UseEffect from "./components/hooks/UseEffect";
+import Users from "./components/Users";
+import Games from "./components/Games";
 
 function App() {
   return (
     <>
-      <Button text="КОНОПОЧКА" />
-      <Button text="тут ничего не написано" />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <h1>КиберСпортивные КоМаНдЫ</h1>
-      <Profile img={teamVitalityImg} name="Vitality"/>
-      <Profile img={G2Img} name="G2"/>
-      <Profile img={fazeImg} name="FaZe"/>
+      {/* <UseState />
+      <UseEffect /> */}
+      {/* <Users /> */}
+      <Games />
     </>
   );
-}
+} 
 
 export default App;
